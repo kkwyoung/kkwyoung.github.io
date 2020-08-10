@@ -32,20 +32,5 @@ html`
   main.variable(observer()).define(["html"], function(html){return(
 html`<div id="download">Download</div>`
 )});
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-  <p class="section-header">
-    This chart will update to reflect your changes.
-  </p>`
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`<div id="chart" />`
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-  <p class="section-header red">
-    Anything below this point is code. You can ignore it, unless you're curious!
-  </p>`
-)});
   return main;
 }
