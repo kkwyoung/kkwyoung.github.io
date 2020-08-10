@@ -1,0 +1,14 @@
+{
+  "name": "1d38193beca74e77",
+  "main": "1d38193beca74e77@900.js",
+  "version": "900.0.0",
+  "homepage": "https://observablehq.com/d/1d38193beca74e77",
+  "author": {
+    "name": "kkwyoung",
+    "url": "https://observablehq.com/@kkwyoung"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
