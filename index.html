@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Radar chart with dynamic .csv binding and static image generator</title>
-<link rel="stylesheet" type="text/css" href="./inspector.css">
-<body>
-<script type="module">
-
-import define from "./index.js";
-import {Runtime, Library, Inspector} from "./runtime.js";
-
-const runtime = new Runtime();
-const main = runtime.module(define, Inspector.into(document.body));
-
-</script>
+<html>
+  <head>
+    <title>test</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/d3@5.16.0/dist/d3.min.js"></script>
+  </head>
+  <body style="font-size: 1em;">
+    <script type="module" src="bundle.js" ></script>
+  </body>
+</html>
